@@ -8,7 +8,16 @@
     "type": "git",
     "url": "https://github.com/LucasOe/one-dark-code"
   },
+  "bugs": {
+    "url": "https://github.com/LucasOe/one-dark-code/issues"
+  },
   "license": "MIT",
+  "icon": "icon.png",
+  "keywords": [
+    "one dark",
+    "onedark",
+    "theme"
+  ],
   "engines": {
     "vscode": "^1.83.0"
   },
