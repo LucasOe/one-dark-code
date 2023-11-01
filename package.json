@@ -4,6 +4,10 @@
   "description": "Atom's iconic One Dark theme for Visual Studio Code",
   "version": "0.0.1",
   "publisher": "LucasOe",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LucasOe/one-dark-code"
+  },
   "license": "MIT",
   "engines": {
     "vscode": "^1.83.0"
