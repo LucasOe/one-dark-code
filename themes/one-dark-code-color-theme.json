@@ -187,8 +187,6 @@
 		"editor.findMatchBorder": "#61afef",
 		"editor.findMatchHighlightBackground": "#ffffff10",
 		"editor.findMatchHighlightBorder": "#5c6370",
-		// TODO: Editor Find Range Highlight
-		// TODO: Search Editor Match
 		"editor.lineHighlightBackground": "#2c313c",
 		"editorUnicodeHighlight.background": "#ffffff10",
 		"editorUnicodeHighlight.border": "#e5c07b",
@@ -216,6 +214,18 @@
 		"editorBracketHighlight.foreground4": "#abb2bf",
 		"editorBracketHighlight.foreground5": "#abb2bf",
 		"editorBracketHighlight.foreground6": "#abb2bf",
+		"editorBracketPairGuide.background1": "#404754",
+		"editorBracketPairGuide.background2": "#404754",
+		"editorBracketPairGuide.background3": "#404754",
+		"editorBracketPairGuide.background4": "#404754",
+		"editorBracketPairGuide.background5": "#404754",
+		"editorBracketPairGuide.background6": "#404754",
+		"editorBracketPairGuide.activeBackground1": "#5c6370",
+		"editorBracketPairGuide.activeBackground2": "#5c6370",
+		"editorBracketPairGuide.activeBackground3": "#5c6370",
+		"editorBracketPairGuide.activeBackground4": "#5c6370",
+		"editorBracketPairGuide.activeBackground5": "#5c6370",
+		"editorBracketPairGuide.activeBackground6": "#5c6370",
 
 		// Inlay Hints
 		"editorInlayHint.background": "#ffffff00",
@@ -227,6 +237,7 @@
 		"editorCodeLens.foreground": "#5c6370",
 		"editor.foldBackground": "#ffffff00",
 		"editorWhitespace.foreground": "#ffffff10",
+		"editorLightBulb.foreground": "#e5c07b",
 
 		// Sticky Scroll
 		"editorStickyScroll.background": "#282c34",
