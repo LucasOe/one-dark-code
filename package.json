@@ -1,0 +1,23 @@
+{
+  "name": "one-dark-code",
+  "displayName": "One Dark Code",
+  "description": "Atom's iconic One Dark theme for Visual Studio Code",
+  "version": "0.0.1",
+  "publisher": "LucasOe",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Dark Code",
+        "uiTheme": "vs-dark",
+        "path": "./themes/One Dark Code-color-theme.json"
+      }
+    ]
+  }
+}
