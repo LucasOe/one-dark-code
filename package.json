@@ -16,7 +16,7 @@
       {
         "label": "One Dark Code",
         "uiTheme": "vs-dark",
-        "path": "./themes/One Dark Code-color-theme.json"
+        "path": "./themes/one-dark-code-color-theme.json"
       }
     ]
   }
