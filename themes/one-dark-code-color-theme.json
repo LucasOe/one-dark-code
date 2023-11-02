@@ -98,7 +98,7 @@
 		"list.inactiveSelectionIconForeground": "#e6e6e6",
 		"list.inactiveFocusBackground": "#2c313a",
 		"list.inactiveFocusOutline": "#ffffff00",
-		"list.errorForeground": "#c24038",
+		"list.errorForeground": "#e45454",
 		"list.warningForeground": "#d19a66",
 		"tree.indentGuidesStroke": "#5c6370",
 		"tree.inactiveIndentGuidesStroke": "#404754",
@@ -515,7 +515,7 @@
 			"name": "Invalid",
 			"scope": ["invalid", "invalid.illegal"],
 			"settings": {
-				"foreground": "#c24038"
+				"foreground": "#e45454"
 			}
 		},
 		{
