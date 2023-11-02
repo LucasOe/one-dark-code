@@ -327,6 +327,8 @@
 		// Status Bar colors
 		"statusBar.background": "#21252b",
 		"statusBar.foreground": "#abb2bf",
+		"statusBarItem.hoverBackground": "#2c313c",
+		"statusBarItem.hoverForeground": "#abb2bf",
 		"statusBar.border": "#2c313c",
 		"statusBar.debuggingBackground": "#21252b",
 		"statusBar.debuggingBorder": "#2c313c",
@@ -336,6 +338,14 @@
 		"statusBar.noFolderBorder": "#2c313c",
 		"statusBarItem.remoteBackground": "#ffffff00",
 		"statusBarItem.remoteForeground": "#98c379",
+		"statusBarItem.errorBackground": "#c24038",
+		"statusBarItem.errorForeground": "#e6e6e6",
+		"statusBarItem.errorHoverBackground": "#e45454",
+		"statusBarItem.errorHoverForeground": "#e6e6e6",
+		"statusBarItem.warningBackground": "#d19a66",
+		"statusBarItem.warningForeground": "#e6e6e6",
+		"statusBarItem.warningHoverBackground": "#e5c07b",
+		"statusBarItem.warningHoverForeground": "#e6e6e6",
 
 		// Title Bar colors
 		"titleBar.activeBackground": "#21252b",
@@ -486,7 +496,17 @@
 		"debugIcon.stepIntoForeground": "#61afef",
 		"debugIcon.stepBackForeground": "#61afef",
 		"debugIcon.stepOutForeground": "#61afef",
-		"debugIcon.stepOverForeground": "#61afef"
+		"debugIcon.stepOverForeground": "#61afef",
+
+		// Error Lens Extension
+		"errorLens.errorBackground": "#e06c7515",
+		"errorLens.errorForeground": "#e45454",
+		"errorLens.warningBackground": "#d19a6615",
+		"errorLens.warningForeground": "#d19a66",
+		"errorLens.infoBackground": "#61afef15",
+		"errorLens.infoForeground": "#61afef",
+		"errorLens.hintBackground": "#98c37915",
+		"errorLens.hintForeground": "#98c379"
 	},
 	"tokenColors": [
 		{
