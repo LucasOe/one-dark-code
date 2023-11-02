@@ -1,6 +1,12 @@
 # Change Log
 
-## 1.0.1
+## 1.2.0
+
+- Change the color of `debugIcon.startForeground` to green
+- Improve CSS syntax highlighting colors
+- Colorize operators
+
+## 1.1.0
 
 - Add Changelog
 - Colorize `meta.interpolation` tokens. String interpolation in Rust is now correctly colored.
