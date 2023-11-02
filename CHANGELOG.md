@@ -1,9 +1,16 @@
 # Change Log
 
-All notable changes to the "one-dark-code" extension will be documented in this file.
+## 1.0.1
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Add Changelog
+- Colorize `meta.interpolation` tokens. String interpolation in Rust is now correctly colored.
+- Update `terminal.ansiYellow` color to match the Windows Terminal theme
+- Add screenshots and more information to the README
+- Add `editorBracketHighlight` colors
+- Update `invalid` tokens and `list.errorForeground` colors
+- Add colors for the [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) extension
+- Rewrite markdown using scss
 
-## [Unreleased]
+## 1.0.0
 
 - Initial release
