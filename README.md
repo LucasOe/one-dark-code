@@ -6,7 +6,7 @@
 
 ## Markdown Preview
 
-This theme adds markdown preview styling based on [One Dark Pro](https://github.com/Binaryify/OneDark-Pro).
+This theme adds its own markdown preview styling.
 
 ![Markdown Screenshot](screenshots/markdown.png)
 

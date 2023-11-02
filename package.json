@@ -35,5 +35,12 @@
 		"markdown.previewStyles": [
 			"./styles/markdown.css"
 		]
+	},
+	"scripts": {
+		"build": "yarn sass --no-source-map styles/scss:styles",
+		"watch": "yarn sass --no-source-map --watch styles/scss:styles"
+	},
+	"dependencies": {
+		"sass": "^1.69.5"
 	}
 }
