@@ -568,7 +568,8 @@
 				"punctuation.definition.template-expression.begin",
 				"punctuation.definition.template-expression.end",
 				"punctuation.definition.interpolation",
-				"punctuation.section.embedded"
+				"punctuation.section.embedded",
+				"meta.interpolation"
 			],
 			"settings": {
 				"foreground": "#c678dd"
