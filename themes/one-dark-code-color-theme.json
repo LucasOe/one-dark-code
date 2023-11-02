@@ -207,12 +207,12 @@
 		"editorIndentGuide.activeBackground6": "#5c6370",
 
 		// Brackets
-		"editorBracketHighlight.foreground1": "#abb2bf",
-		"editorBracketHighlight.foreground2": "#abb2bf",
-		"editorBracketHighlight.foreground3": "#abb2bf",
-		"editorBracketHighlight.foreground4": "#abb2bf",
-		"editorBracketHighlight.foreground5": "#abb2bf",
-		"editorBracketHighlight.foreground6": "#abb2bf",
+		"editorBracketHighlight.foreground1": "#d19a66",
+		"editorBracketHighlight.foreground2": "#c678dd",
+		"editorBracketHighlight.foreground3": "#56b6c2",
+		"editorBracketHighlight.foreground4": "#d19a66",
+		"editorBracketHighlight.foreground5": "#c678dd",
+		"editorBracketHighlight.foreground6": "#56b6c2",
 		"editorBracketPairGuide.background1": "#404754",
 		"editorBracketPairGuide.background2": "#404754",
 		"editorBracketPairGuide.background3": "#404754",
