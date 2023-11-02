@@ -1,36 +1,39 @@
 {
-  "name": "one-dark-code",
-  "displayName": "One Dark Code",
-  "description": "Atom's iconic One Dark theme for Visual Studio Code",
-  "version": "0.0.1",
-  "publisher": "LucasOe",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/LucasOe/one-dark-code"
-  },
-  "bugs": {
-    "url": "https://github.com/LucasOe/one-dark-code/issues"
-  },
-  "license": "MIT",
-  "icon": "icon.png",
-  "keywords": [
-    "one dark",
-    "onedark",
-    "theme"
-  ],
-  "engines": {
-    "vscode": "^1.83.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "One Dark Code",
-        "uiTheme": "vs-dark",
-        "path": "./themes/one-dark-code-color-theme.json"
-      }
-    ]
-  }
+	"name": "one-dark-code",
+	"displayName": "One Dark Code",
+	"description": "Atom's iconic One Dark theme for Visual Studio Code",
+	"version": "0.0.1",
+	"publisher": "LucasOe",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/LucasOe/one-dark-code"
+	},
+	"bugs": {
+		"url": "https://github.com/LucasOe/one-dark-code/issues"
+	},
+	"license": "MIT",
+	"icon": "icon.png",
+	"keywords": [
+		"one dark",
+		"onedark",
+		"theme"
+	],
+	"engines": {
+		"vscode": "^1.83.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "One Dark Code",
+				"uiTheme": "vs-dark",
+				"path": "./themes/one-dark-code-color-theme.json"
+			}
+		],
+		"markdown.previewStyles": [
+			"./styles/markdown.css"
+		]
+	}
 }
