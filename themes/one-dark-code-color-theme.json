@@ -967,6 +967,41 @@
 			"settings": {
 				"foreground": "#e5c07b"
 			}
+		},
+		{
+			"name": "Markup - Math",
+			"scope": ["markup.math", "markup.math constant.numeric", "markup.math punctuation"],
+			"settings": {
+				"foreground": "#56b6c2"
+			}
+		},
+		{
+			"name": "Markup - Math Constant",
+			"scope": ["markup.math punctuation.definition.constant", "markup.math constant.character"],
+			"settings": {
+				"foreground": "#98c379"
+			}
+		},
+		{
+			"name": "Markup - Math Punctuation",
+			"scope": ["markup.math punctuation.definition"],
+			"settings": {
+				"foreground": "#d19a66"
+			}
+		},
+		{
+			"name": "Markup - Math Function",
+			"scope": ["markup.math entity.name.function", "markup.math punctuation.definition.function"],
+			"settings": {
+				"foreground": "#61afef"
+			}
+		},
+		{
+			"name": "Markup - Math Delimiter",
+			"scope": ["punctuation.definition.math"],
+			"settings": {
+				"foreground": "#c678dd"
+			}
 		}
 	]
 }
