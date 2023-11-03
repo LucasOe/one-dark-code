@@ -5,6 +5,7 @@
 - Change the color of `debugIcon.startForeground` to green
 - Improve CSS syntax highlighting colors
 - Colorize operators
+- Improve syntax highlighting for markdown math blocks
 
 ## 1.1.0
 
