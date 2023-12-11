@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.3.0
+
+- Rework syntax highlighting
+
 ## 1.2.0
 
 - Change the color of `debugIcon.startForeground` to green
