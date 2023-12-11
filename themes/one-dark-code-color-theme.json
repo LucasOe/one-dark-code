@@ -811,17 +811,22 @@
 			}
 		},
 		// =============================================================================
-		// Properties
+		// Properties/Keys
 		// =============================================================================
 		{
-			"name": "Keys",
+			"name": "Properties",
 			"scope": [
 				"variable.other.property",
-				"support.type.property-name",
-				"support.type.property-name punctuation",
 				"meta.object-literal.key",
 				"meta.object-literal.key entity.name.function"
 			],
+			"settings": {
+				"foreground": "#abb2bf"
+			}
+		},
+		{
+			"name": "Keys",
+			"scope": ["support.type.property-name", "support.type.property-name punctuation"],
 			"settings": {
 				"foreground": "#e06c75"
 			}
@@ -1102,7 +1107,7 @@
 			}
 		}
 	],
-	"semanticHighlighting": true,
+	"semanticHighlighting": false,
 	"semanticTokenColors": {
 		"namespace": {
 			"foreground": "#e5c07b"
@@ -1140,7 +1145,7 @@
 			"fontStyle": "italic"
 		},
 		"property": {
-			"foreground": "#e06c75"
+			"foreground": "#abb2bf"
 		},
 		"enumMember": {
 			"foreground": "#d19a66"

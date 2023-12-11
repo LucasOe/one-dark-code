@@ -9,7 +9,7 @@
 			"name": "Extension",
 			"type": "extensionHost",
 			"request": "launch",
-			"args": ["--profile=Empty", "--extensionDevelopmentPath=${workspaceFolder}"]
+			"args": ["--extensionDevelopmentPath=${workspaceFolder}"]
 		}
 	]
 }
