@@ -592,14 +592,6 @@
 				"fontStyle": "italic"
 			}
 		},
-		{
-			"name": "Inherited classes",
-			"scope": ["entity.other.inherited-class"],
-			"settings": {
-				"foreground": "#e5c07b",
-				"fontStyle": "italic"
-			}
-		},
 		// =============================================================================
 		// Constants
 		// =============================================================================
@@ -931,6 +923,20 @@
 				"foreground": "#e5c07b"
 			}
 		},
+		{
+			"name": "Rust Import",
+			"scope": ["meta.use.rust keyword.operator"],
+			"settings": {
+				"foreground": "#d19a66"
+			}
+		},
+		{
+			"name": "Rust Trait Bounds",
+			"scope": ["meta.function.definition.rust keyword.operator.math"],
+			"settings": {
+				"foreground": "#abb2bf"
+			}
+		},
 		// =============================================================================
 		// Markup
 		// =============================================================================
@@ -1122,6 +1128,10 @@
 			"foreground": "#56b6c2"
 		},
 		"parameter": {
+			"foreground": "#e06c75",
+			"fontStyle": "italic"
+		},
+		"parameter.declaration": {
 			"foreground": "#d19a66",
 			"fontStyle": "italic"
 		},
@@ -1129,7 +1139,7 @@
 			"foreground": "#e06c75"
 		},
 		"enumMember": {
-			"foreground": "#e5c07b"
+			"foreground": "#d19a66"
 		},
 		"derive": {
 			"foreground": "#e5c07b"
@@ -1143,6 +1153,9 @@
 		"selfKeyword": {
 			"foreground": "#d19a66",
 			"fontStyle": "italic"
+		},
+		"enumMember.attribute": {
+			"foreground": "#abb2bf"
 		}
 	}
 }
