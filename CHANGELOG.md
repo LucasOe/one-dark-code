@@ -6,6 +6,7 @@
 - Colorize EnumMember in orange
 - Fix semantic highlighting inside Rust doc comments
 - Improve semantic highlighting for C#
+- Change color of properties to gray
 
 ## 1.4.0
 
