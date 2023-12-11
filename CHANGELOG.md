@@ -1,5 +1,10 @@
 # Change Log
 
+## Unreleased
+
+- Change parameter color for semantic highlighting
+- Colorize EnumMember in orange
+
 ## 1.4.0
 
 - Add semantic highlighting
