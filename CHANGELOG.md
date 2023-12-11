@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.4.0
+
+- Add semantic highlighting
+- Change `keyword.operator.key-value` color
+
 ## 1.3.0
 
 - Rework syntax highlighting
