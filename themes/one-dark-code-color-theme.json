@@ -616,6 +616,13 @@
 			"name": "Variables",
 			"scope": ["source variable", "source entity.name.variable"],
 			"settings": {
+				"foreground": "#abb2bf"
+			}
+		},
+		{
+			"name": "Destructuring / aliasing variable name",
+			"scope": ["meta.import variable.other.readwrite"],
+			"settings": {
 				"foreground": "#e06c75"
 			}
 		},
@@ -745,12 +752,8 @@
 			"name": "Punctuation",
 			"scope": [
 				"source punctuation",
-				"meta.tag",
-				"punctuation.definition.tag",
-				"punctuation.separator.inheritance.php",
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html"
+				"string.template meta.brace.square",
+				"string.template punctuation.accessor"
 			],
 			"settings": {
 				"foreground": "#abb2bf"
@@ -796,18 +799,8 @@
 			"name": "Attributes",
 			"scope": ["entity.other.attribute-name"],
 			"settings": {
-				"foreground": "#d19a66"
-			}
-		},
-		{
-			"name": "HTML Attributes",
-			"scope": [
-				"text.html.basic entity.other.attribute-name.html",
-				"text.html.basic entity.other.attribute-name"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#d19a66"
+				"foreground": "#d19a66",
+				"fontStyle": "italic"
 			}
 		},
 		// =============================================================================
@@ -815,18 +808,19 @@
 		// =============================================================================
 		{
 			"name": "Properties",
-			"scope": [
-				"variable.other.property",
-				"meta.object-literal.key",
-				"meta.object-literal.key entity.name.function"
-			],
+			"scope": ["variable.other.property"],
 			"settings": {
 				"foreground": "#abb2bf"
 			}
 		},
 		{
 			"name": "Keys",
-			"scope": ["support.type.property-name", "support.type.property-name punctuation"],
+			"scope": [
+				"support.type.property-name",
+				"support.type.property-name punctuation",
+				"meta.object-literal.key",
+				"meta.object-literal.key entity.name.function"
+			],
 			"settings": {
 				"foreground": "#e06c75"
 			}
@@ -947,6 +941,20 @@
 			"scope": ["variable.language.base"],
 			"settings": {
 				"foreground": "#c678dd"
+			}
+		},
+		{
+			"name": "Log - Error",
+			"scope": ["log.error"],
+			"settings": {
+				"foreground": "#e45454"
+			}
+		},
+		{
+			"name": "Log - Warning",
+			"scope": ["log.warning"],
+			"settings": {
+				"foreground": "#d19a66"
 			}
 		},
 		// =============================================================================
@@ -1137,7 +1145,8 @@
 			"foreground": "#56b6c2"
 		},
 		"parameter": {
-			"foreground": "#e06c75",
+			// Set to "Variables" color
+			"foreground": "#abb2bf",
 			"fontStyle": "italic"
 		},
 		"parameter.declaration": {
@@ -1146,6 +1155,9 @@
 		},
 		"property": {
 			"foreground": "#abb2bf"
+		},
+		"property.declaration": {
+			"foreground": "#e06c75"
 		},
 		"enumMember": {
 			"foreground": "#d19a66"
