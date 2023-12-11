@@ -597,7 +597,7 @@
 		// =============================================================================
 		{
 			"name": "Constants",
-			"scope": ["constant", "support.constant"],
+			"scope": ["source constant", "support.constant"],
 			"settings": {
 				"foreground": "#d19a66"
 			}
@@ -614,7 +614,7 @@
 		// =============================================================================
 		{
 			"name": "Variables",
-			"scope": ["variable"],
+			"scope": ["source variable", "source entity.name.variable"],
 			"settings": {
 				"foreground": "#e06c75"
 			}
@@ -744,7 +744,7 @@
 		{
 			"name": "Punctuation",
 			"scope": [
-				"punctuation",
+				"source punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
@@ -937,6 +937,13 @@
 				"foreground": "#abb2bf"
 			}
 		},
+		{
+			"name": "C# - Base Class",
+			"scope": ["variable.language.base"],
+			"settings": {
+				"foreground": "#c678dd"
+			}
+		},
 		// =============================================================================
 		// Markup
 		// =============================================================================
@@ -1097,9 +1104,6 @@
 	],
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
-		"*": {
-			"fontStyle": ""
-		},
 		"namespace": {
 			"foreground": "#e5c07b"
 		},
@@ -1138,12 +1142,6 @@
 		"property": {
 			"foreground": "#e06c75"
 		},
-		"keyword": {
-			"foreground": "#c678dd"
-		},
-		"variable": {
-			"foreground": "#e06c75"
-		},
 		"enumMember": {
 			"foreground": "#d19a66"
 		},
@@ -1165,6 +1163,12 @@
 		},
 		"punctuation.injected": {
 			"foreground": "#abb2bf"
+		},
+		"builtinType": {
+			"foreground": "#e5c07b"
+		},
+		"*.mutable": {
+			"underline": false
 		}
 	}
 }
