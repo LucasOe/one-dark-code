@@ -616,7 +616,7 @@
 			"name": "Variables",
 			"scope": ["source variable", "source entity.name.variable"],
 			"settings": {
-				"foreground": "#abb2bf"
+				"foreground": "#e06c75"
 			}
 		},
 		{
@@ -1146,7 +1146,7 @@
 		},
 		"parameter": {
 			// Set to "Variables" color
-			"foreground": "#abb2bf",
+			"foreground": "#e06c75",
 			"fontStyle": "italic"
 		},
 		"parameter.declaration": {
@@ -1162,9 +1162,6 @@
 		"enumMember": {
 			"foreground": "#d19a66"
 		},
-		"derive": {
-			"foreground": "#e5c07b"
-		},
 		"decorator": {
 			"foreground": "#abb2bf"
 		},
@@ -1172,6 +1169,9 @@
 			"foreground": "#e5c07b"
 		},
 		"selfKeyword": {
+			"foreground": "#e06c75"
+		},
+		"selfKeyword.declaration": {
 			"foreground": "#d19a66",
 			"fontStyle": "italic"
 		},
@@ -1192,6 +1192,9 @@
 		},
 		"boolean.attribute": {
 			"foreground": "#d19a66"
+		},
+		"derive": {
+			"foreground": "#e5c07b"
 		}
 	}
 }
