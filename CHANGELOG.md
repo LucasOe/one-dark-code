@@ -7,7 +7,6 @@
 - Fix semantic highlighting inside Rust doc comments
 - Improve semantic highlighting for C#
 - Change color of properties to gray
-- Change variable color to gray
 - Make HTML Attributes italic
 - Fix smaller issues with semantic highlighting
 - Fix syntax highlighting of Rust attributes
