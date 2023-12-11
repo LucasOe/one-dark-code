@@ -4,6 +4,7 @@
 
 - Change parameter color for semantic highlighting
 - Colorize EnumMember in orange
+- Fix semantic highlighting inside Rust doc comments
 
 ## 1.4.0
 

@@ -1138,6 +1138,12 @@
 		"property": {
 			"foreground": "#e06c75"
 		},
+		"keyword": {
+			"foreground": "#c678dd"
+		},
+		"variable": {
+			"foreground": "#e06c75"
+		},
 		"enumMember": {
 			"foreground": "#d19a66"
 		},
@@ -1155,6 +1161,9 @@
 			"fontStyle": "italic"
 		},
 		"enumMember.attribute": {
+			"foreground": "#abb2bf"
+		},
+		"punctuation.injected": {
 			"foreground": "#abb2bf"
 		}
 	}
