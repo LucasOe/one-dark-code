@@ -1107,7 +1107,7 @@
 			}
 		}
 	],
-	"semanticHighlighting": false,
+	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"namespace": {
 			"foreground": "#e5c07b"
