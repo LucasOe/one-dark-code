@@ -10,6 +10,7 @@
 - Change variable color to gray
 - Make HTML Attributes italic
 - Fix smaller issues with semantic highlighting
+- Fix syntax highlighting of Rust attributes
 
 ## 1.4.0
 

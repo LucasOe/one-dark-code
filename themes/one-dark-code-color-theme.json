@@ -1175,9 +1175,6 @@
 			"foreground": "#d19a66",
 			"fontStyle": "italic"
 		},
-		"enumMember.attribute": {
-			"foreground": "#abb2bf"
-		},
 		"punctuation.injected": {
 			"foreground": "#abb2bf"
 		},
@@ -1186,6 +1183,15 @@
 		},
 		"*.mutable": {
 			"underline": false
+		},
+		"*.attribute": {
+			"foreground": "#abb2bf"
+		},
+		"string.attribute": {
+			"foreground": "#98c379"
+		},
+		"boolean.attribute": {
+			"foreground": "#d19a66"
 		}
 	}
 }
