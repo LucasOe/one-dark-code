@@ -819,7 +819,9 @@
 				"support.type.property-name",
 				"support.type.property-name punctuation",
 				"meta.object-literal.key",
-				"meta.object-literal.key entity.name.function"
+				"meta.object-literal.key entity.name.function",
+				"meta.field.declaration string",
+				"meta.field.declaration punctuation.definition.string"
 			],
 			"settings": {
 				"foreground": "#e06c75"
