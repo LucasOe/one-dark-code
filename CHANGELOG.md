@@ -1,6 +1,6 @@
 # Change Log
 
-## Unreleased
+## 1.5.0
 
 - Change parameter color for semantic highlighting
 - Colorize EnumMember in orange
@@ -11,6 +11,7 @@
 - Fix smaller issues with semantic highlighting
 - Fix syntax highlighting of Rust attributes
 - Change color of strings as keys to red
+- Add support for [SCSS Grammar Extended](https://marketplace.visualstudio.com/items?itemName=dannymcgee.scss-grammar-extended)
 
 ## 1.4.0
 
