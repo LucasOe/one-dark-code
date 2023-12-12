@@ -10,6 +10,7 @@
 - Make HTML Attributes italic
 - Fix smaller issues with semantic highlighting
 - Fix syntax highlighting of Rust attributes
+- Change color of strings as keys to red
 
 ## 1.4.0
 
