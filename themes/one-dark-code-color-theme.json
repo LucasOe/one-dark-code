@@ -808,7 +808,7 @@
 		// =============================================================================
 		{
 			"name": "Properties",
-			"scope": ["variable.other.property"],
+			"scope": ["variable.other.property", "variable.other.object.property"],
 			"settings": {
 				"foreground": "#abb2bf"
 			}
