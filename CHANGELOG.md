@@ -1,5 +1,9 @@
 # Change Log
 
+## Unreleased
+
+- Add support for GitLens
+
 ## 1.5.0
 
 - Change parameter color for semantic highlighting
