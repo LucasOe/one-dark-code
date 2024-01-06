@@ -607,7 +607,7 @@
 		// =============================================================================
 		{
 			"name": "Constants",
-			"scope": ["source constant", "support.constant"],
+			"scope": ["constant", "support.constant"],
 			"settings": {
 				"foreground": "#d19a66"
 			}
@@ -624,7 +624,7 @@
 		// =============================================================================
 		{
 			"name": "Variables",
-			"scope": ["source variable", "entity.name.variable"],
+			"scope": ["variable", "entity.name.variable"],
 			"settings": {
 				"foreground": "#e06c75"
 			}
@@ -699,7 +699,6 @@
 		{
 			"name": "Keyword",
 			"scope": [
-				"source keyword",
 				"keyword",
 				"keyword.control punctuation",
 				"punctuation.definition.keyword",
@@ -712,7 +711,7 @@
 		},
 		{
 			"name": "Keyword - Operators",
-			"scope": ["source keyword.operator"],
+			"scope": ["keyword.operator"],
 			"settings": {
 				"foreground": "#56b6c2"
 			}
@@ -761,11 +760,7 @@
 		// =============================================================================
 		{
 			"name": "Punctuation",
-			"scope": [
-				"source punctuation",
-				"string.template meta.brace.square",
-				"string.template punctuation.accessor"
-			],
+			"scope": ["punctuation", "string.template meta.brace.square", "string.template punctuation.accessor"],
 			"settings": {
 				"foreground": "#abb2bf"
 			}
