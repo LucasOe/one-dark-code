@@ -5,6 +5,7 @@
 - Add support for GitLens
 - Fix syntax highlighting inside Rust doc comments
 - Change color of punctuation for markdown links to gray
+- Change color of intra-doc-links in Rust comments
 
 ## 1.5.0
 
