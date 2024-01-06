@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.6.1
+
+- Fix es6-string-html syntax highlighting
+
 ## 1.6.0
 
 - Add support for GitLens
