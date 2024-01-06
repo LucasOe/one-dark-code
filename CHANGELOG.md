@@ -1,6 +1,6 @@
 # Change Log
 
-## Unreleased
+## 1.6.0
 
 - Add support for GitLens
 - Fix syntax highlighting inside Rust doc comments
