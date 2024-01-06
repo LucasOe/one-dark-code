@@ -1096,6 +1096,17 @@
 				"foreground": "#e5c07b"
 			}
 		},
+		{
+			"name": "Markup - Punctuation",
+			"scope": [
+				"punctuation.definition.metadata.markdown",
+				"punctuation.definition.link.title.end.markdown",
+				"punctuation.definition.link.title.begin.markdown"
+			],
+			"settings": {
+				"foreground": "#abb2bf"
+			}
+		},
 		// =============================================================================
 		// Markup - Math
 		// =============================================================================
