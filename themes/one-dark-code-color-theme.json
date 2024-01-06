@@ -1226,6 +1226,10 @@
 		},
 		"derive": {
 			"foreground": "#e5c07b"
+		},
+		"*.documentation.injected": {
+			"foreground": "#7f848e",
+			"fontStyle": "italic bold"
 		}
 	}
 }
