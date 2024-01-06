@@ -582,7 +582,7 @@
 		},
 		{
 			"name": "Namespace",
-			"scope": ["entity.name.namespace", "meta.use.rust"],
+			"scope": ["entity.name.namespace"],
 			"settings": {
 				"foreground": "#e5c07b"
 			}
@@ -624,7 +624,7 @@
 		// =============================================================================
 		{
 			"name": "Variables",
-			"scope": ["source variable", "source entity.name.variable"],
+			"scope": ["source variable", "entity.name.variable"],
 			"settings": {
 				"foreground": "#e06c75"
 			}
@@ -700,10 +700,11 @@
 			"name": "Keyword",
 			"scope": [
 				"source keyword",
-				"source keyword.control punctuation",
-				"source punctuation.definition.keyword",
-				"source keyword.operator.new",
-				"source keyword.operator.expression"
+				"keyword",
+				"keyword.control punctuation",
+				"punctuation.definition.keyword",
+				"keyword.operator.new",
+				"keyword.operator.expression"
 			],
 			"settings": {
 				"foreground": "#c678dd"
@@ -719,10 +720,10 @@
 		{
 			"name": "Keyword - Reset",
 			"scope": [
-				"source keyword.operator.type.annotation",
-				"source keyword.operator.namespace",
-				"source keyword.operator.key-value",
-				"source keyword.operator.access.dot"
+				"keyword.operator.type.annotation",
+				"keyword.operator.namespace",
+				"keyword.operator.key-value",
+				"keyword.operator.access.dot"
 			],
 			"settings": {
 				"foreground": "#abb2bf"
