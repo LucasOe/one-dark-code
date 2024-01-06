@@ -6,6 +6,7 @@
 - Fix syntax highlighting inside Rust doc comments
 - Change color of punctuation for markdown links to gray
 - Change color of intra-doc-links in Rust comments
+- Add better syntax highlighting with [es6-string-html](https://marketplace.visualstudio.com/items?itemName=Tobermory.es6-string-html)
 
 ## 1.5.0
 

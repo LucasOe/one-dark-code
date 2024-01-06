@@ -760,7 +760,12 @@
 		// =============================================================================
 		{
 			"name": "Punctuation",
-			"scope": ["punctuation", "string.template meta.brace.square", "string.template punctuation.accessor"],
+			"scope": [
+				"punctuation",
+				"string.template meta.brace.square",
+				"string.template punctuation.accessor",
+				"meta.brace"
+			],
 			"settings": {
 				"foreground": "#abb2bf"
 			}
@@ -838,7 +843,7 @@
 		// =============================================================================
 		{
 			"name": "CSS - Property Names",
-			"scope": ["source.css support.type.property-name", "support.type.vendored.property-name"],
+			"scope": ["support.type.property-name.css", "support.type.vendored.property-name"],
 			"settings": {
 				"foreground": "#abb2bf"
 			}
@@ -970,6 +975,25 @@
 			"scope": ["log.warning"],
 			"settings": {
 				"foreground": "#d19a66"
+			}
+		},
+		{
+			"name": "ES6 String in HTML",
+			"scope": [
+				"source.js entity.name.tag",
+				"source.ts entity.name.tag",
+				"source.jsx entity.name.tag",
+				"source.tsx entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#c678dd"
+			}
+		},
+		{
+			"name": "ES6 String in HTML",
+			"scope": ["entity.name.tag.html", "entity.name.tag.xml", "entity.name.tag.localname.xml"],
+			"settings": {
+				"foreground": "#e06c75"
 			}
 		},
 		// =============================================================================
