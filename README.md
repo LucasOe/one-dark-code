@@ -48,7 +48,7 @@ By default variables are highlighted red. If you think there is too much red, yo
     "[One Dark Code]": {
       "textMateRules": [
         {
-          "scope": "source variable",
+          "scope": "variable",
           "settings": {
             "foreground": "#abb2bf"
           }
@@ -67,6 +67,7 @@ By default variables are highlighted red. If you think there is too much red, yo
       "rules": {
         "variable": "#abb2bf",
         "parameter": "#abb2bf",
+        "selfKeyword": "#abb2bf",
         "property": "#e06c75"
       }
     }
