@@ -1,5 +1,10 @@
 # Change Log
 
+## Unreleased
+
+- More consistent colors for match highlights
+- Add color for folding highlight setting
+
 ## 1.6.1
 
 - Fix es6-string-html syntax highlighting
