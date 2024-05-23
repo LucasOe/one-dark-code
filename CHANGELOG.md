@@ -1,9 +1,11 @@
 # Change Log
 
-## Unreleased
+## 1.6.2
 
 - More consistent colors for match highlights
 - Add color for folding highlight setting
+- Fix strings being red in some cases
+- Improve log colors
 
 ## 1.6.1
 
