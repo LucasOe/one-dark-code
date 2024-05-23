@@ -963,7 +963,7 @@
 		},
 		{
 			"name": "Log - Error",
-			"scope": ["log.error"],
+			"scope": ["log.error", "log.exceptiontype"],
 			"settings": {
 				"foreground": "#e45454"
 			}
@@ -973,6 +973,20 @@
 			"scope": ["log.warning"],
 			"settings": {
 				"foreground": "#d19a66"
+			}
+		},
+		{
+			"name": "Log - Info",
+			"scope": ["log.info"],
+			"settings": {
+				"foreground": "#61afef"
+			}
+		},
+		{
+			"name": "Log - Constant",
+			"scope": ["log.constant"],
+			"settings": {
+				"foreground": "#abb2bf"
 			}
 		},
 		{
