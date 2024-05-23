@@ -1,6 +1,6 @@
 # Change Log
 
-## 1.6.2
+## 1.7.0
 
 - More consistent colors for match highlights
 - Add color for folding highlight setting

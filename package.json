@@ -2,7 +2,7 @@
 	"name": "one-dark-code",
 	"displayName": "One Dark Code",
 	"description": "Atom's iconic One Dark theme for Visual Studio Code",
-	"version": "1.6.1",
+	"version": "1.7.0",
 	"publisher": "LucasOe",
 	"repository": {
 		"type": "git",
