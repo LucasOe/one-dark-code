@@ -41,8 +41,8 @@
 		"button.secondaryForeground": "#e6e6e6",
 		"button.secondaryHoverBackground": "#5c6370",
 		"checkbox.background": "#21252b",
-		"checkbox.foreground": "#e6e6e6",
-		"checkbox.border": "#2c313c",
+		"checkbox.foreground": "#98c379",
+		"checkbox.border": "#404754",
 
 		// Dropdown control
 		"dropdown.background": "#21252b",
@@ -51,7 +51,6 @@
 		"dropdown.border": "#2c313c",
 
 		// Input control
-		// NOTE: Inputs in the Side Bar currently have low contrast. Maybe change the colors in the future.
 		"input.background": "#21252b",
 		"input.foreground": "#abb2bf",
 		"input.border": "#2c313c",
@@ -230,10 +229,11 @@
 		"editorInlayHint.foreground": "#5c6370",
 
 		// Misc
-		"editorRuler.foreground": "#2c313c",
+		"editorRuler.foreground": "#abb2bf10",
 		"editor.linkedEditingBackground": "#e06c7530",
-		"editorCodeLens.foreground": "#5c6370",
+		"editorCodeLens.foreground": "#7f848e",
 		"editor.foldBackground": "#61afef15",
+		"editor.foldPlaceholderForeground": "#7f848e",
 		"editorWhitespace.foreground": "#ffffff10",
 		"editorLightBulb.foreground": "#e5c07b",
 
@@ -243,12 +243,12 @@
 
 		// Overview Ruler
 		"editorOverviewRuler.border": "#ffffff00",
-		"editorOverviewRuler.findMatchForeground": "#61afef",
+		"editorOverviewRuler.findMatchForeground": "#61afef50",
 		"editorOverviewRuler.warningForeground": "#d19a66",
 		"editorOverviewRuler.infoForeground": "#61afef",
 		"editorOverviewRuler.errorForeground": "#c24038",
-		"editorOverviewRuler.addedForeground": "#98c3794d",
-		"editorOverviewRuler.deletedForeground": "#e06c7538",
+		"editorOverviewRuler.addedForeground": "#98c3798c",
+		"editorOverviewRuler.deletedForeground": "#e06c758c",
 		"editorOverviewRuler.modifiedForeground": "#e5c07b8c",
 
 		// Errors and warnings
@@ -260,14 +260,14 @@
 		"problemsInfoIcon.foreground": "#61afef",
 
 		// Editor Gutter
-		"editorGutter.addedBackground": "#109868",
-		"editorGutter.deletedBackground": "#9A353D",
-		"editorGutter.modifiedBackground": "#948B60",
+		"editorGutter.addedBackground": "#98c3798c",
+		"editorGutter.deletedBackground": "#e06c758c",
+		"editorGutter.modifiedBackground": "#e5c07b8c",
 		"editorGutter.foldingControlForeground": "#abb2bf",
 
 		// Diff editor colors
 		"diffEditor.border": "#2c313c",
-		"diffEditor.diagonalFill": "#2c313c",
+		"diffEditor.diagonalFill": "#404754",
 		"diffEditor.insertedLineBackground": "#98c37915",
 		"diffEditor.insertedTextBackground": "#98c37938",
 		"diffEditor.removedLineBackground": "#e06c7515",
@@ -277,6 +277,15 @@
 		"diffEditor.unchangedRegionForeground": "#abb2bf",
 		"diffEditor.move.border": "#5C6370",
 		"diffEditor.moveActive.border": "#5C6370",
+
+		// Merge Editor
+		// Note: For some reason the merge editor doesn't use `diffEditor.*LineBackground`
+		// settings for the inserted or removed line backgrounds. It is also not possible
+		// to change the border between panels with `merge.border` or any other setting.
+		"mergeEditor.conflict.handledFocused.border": "#abb2bf",
+		"mergeEditor.conflict.handledUnfocused.border": "#ffffff00",
+		"mergeEditor.conflict.unhandledFocused.border": "#404754",
+		"mergeEditor.conflict.unhandledUnfocused.border": "#ffffff00",
 
 		// Editor Widgets
 		"editorWidget.foreground": "#abb2bf",
@@ -363,15 +372,15 @@
 		"menu.border": "#2c313c",
 
 		// Command Center colors
-		"commandCenter.foreground": "#5c6370",
+		"commandCenter.foreground": "#abb2bf",
 		"commandCenter.background": "#282c34",
 		"commandCenter.border": "#2c313c",
-		"commandCenter.activeForeground": "#5c6370",
+		"commandCenter.activeForeground": "#abb2bf",
 		"commandCenter.activeBackground": "#282c34",
 		"commandCenter.activeBorder": "#2c313c",
 		"commandCenter.inactiveBorder": "#2c313c",
-		"commandCenter.inactiveForeground": "#5c6370",
-		"commandCenter.debuggingBackground": "#282c34",
+		"commandCenter.inactiveForeground": "#abb2bf",
+		"commandCenter.debuggingBackground": "#61afef50",
 
 		// Notification colors
 		"notificationCenter.border": "#2c313c",
@@ -386,8 +395,8 @@
 		"notificationsInfoIcon.foreground": "#61afef",
 
 		// Extension color
-		"extensionIcon.starForeground": "#98c379",
-		"extensionIcon.verifiedForeground": "#61afef",
+		"extensionIcon.starForeground": "#98c379fd",
+		"extensionIcon.verifiedForeground": "#61afeffd",
 
 		// Keybinding label colors
 		"keybindingLabel.background": "#404754",

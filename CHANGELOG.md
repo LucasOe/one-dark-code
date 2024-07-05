@@ -1,5 +1,10 @@
 # Change Log
 
+## Unreleased
+
+- Improve the contrast for the merge editor
+- More consistent colors for the editor gutter
+
 ## 1.7.0
 
 - More consistent colors for match highlights
