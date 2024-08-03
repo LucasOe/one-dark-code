@@ -4,6 +4,7 @@
 
 - Improve the contrast for the merge editor
 - More consistent colors for the editor gutter
+- Improve syntax highlighting for interpolated strings in Rust when not using Semantic highlighting
 
 ## 1.7.0
 

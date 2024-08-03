@@ -964,6 +964,13 @@
 			}
 		},
 		{
+			"name": "Rust Interpolation Variables",
+			"scope": ["meta.interpolation.rust"],
+			"settings": {
+				"foreground": "#e06c75"
+			}
+		},
+		{
 			"name": "C# - Base Class",
 			"scope": ["variable.language.base"],
 			"settings": {
@@ -1268,6 +1275,9 @@
 			"foreground": "#98c379"
 		},
 		"boolean.attribute": {
+			"foreground": "#d19a66"
+		},
+		"number.attribute": {
 			"foreground": "#d19a66"
 		},
 		"derive": {
