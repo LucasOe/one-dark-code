@@ -1229,7 +1229,6 @@
 			"foreground": "#56b6c2"
 		},
 		"parameter": {
-			// Set to "Variables" color
 			"foreground": "#e06c75",
 			"fontStyle": "italic"
 		},
@@ -1286,6 +1285,15 @@
 		"*.documentation.injected": {
 			"foreground": "#7f848e",
 			"fontStyle": "italic bold"
+		},
+		"xmlDocCommentName": {
+			"foreground": "#e06c75"
+		},
+		"xmlDocCommentAttributeName": {
+			"foreground": "#d19a66"
+		},
+		"xmlDocCommentAttributeQuotes": {
+			"foreground": "#98c379"
 		}
 	}
 }

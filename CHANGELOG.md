@@ -4,7 +4,8 @@
 
 - Improve the contrast for the merge editor
 - More consistent colors for the editor gutter
-- Improve syntax highlighting for interpolated strings in Rust when not using Semantic highlighting
+- Improve syntax highlighting for interpolated strings in Rust when not using semantic highlighting
+- Slightly improve syntax highlighting for doc comments in C# when using semantic highlighting
 
 ## 1.7.0
 
