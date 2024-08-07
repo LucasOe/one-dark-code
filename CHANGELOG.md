@@ -6,6 +6,7 @@
 - More consistent colors for the editor gutter
 - Improve syntax highlighting for interpolated strings in Rust when not using semantic highlighting
 - Slightly improve syntax highlighting for doc comments in C# when using semantic highlighting
+- Adjust colors for properties and fields
 
 ## 1.7.0
 
