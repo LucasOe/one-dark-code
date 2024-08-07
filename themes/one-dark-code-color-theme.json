@@ -580,7 +580,7 @@
 			}
 		},
 		// =============================================================================
-		// Classes
+		// Classes/Namespaces
 		// =============================================================================
 		{
 			"name": "Classes",
@@ -824,11 +824,11 @@
 			}
 		},
 		// =============================================================================
-		// Properties/Keys
+		// Properties/Keys/Fields
 		// =============================================================================
 		{
 			"name": "Properties",
-			"scope": ["variable.other.property", "variable.other.object.property"],
+			"scope": ["variable.other.property", "variable.other.object.property", "entity.name.variable.property"],
 			"settings": {
 				"foreground": "#abb2bf"
 			}
@@ -843,6 +843,13 @@
 			],
 			"settings": {
 				"foreground": "#e06c75"
+			}
+		},
+		{
+			"name": "Fields",
+			"scope": ["entity.name.variable.field"],
+			"settings": {
+				"foreground": "#abb2bf"
 			}
 		},
 		// =============================================================================
