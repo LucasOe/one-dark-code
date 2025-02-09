@@ -9,6 +9,7 @@
 - Adjust colors for properties and fields
 - Remove GitLens support
 - Fix black color in the terminal
+- Improve colors in the Diff Editor
 
 ## 1.7.0
 

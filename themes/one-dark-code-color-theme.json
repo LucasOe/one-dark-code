@@ -272,11 +272,14 @@
 		"diffEditor.insertedTextBackground": "#98c37938",
 		"diffEditor.removedLineBackground": "#e06c7515",
 		"diffEditor.removedTextBackground": "#e06c7538",
-		"diffEditor.unchangedCodeBackground": "#5c637010",
-		"diffEditor.unchangedRegionBackground": "#5c637010",
+		"diffEditor.unchangedCodeBackground": "#ffffff00",
+		"diffEditor.unchangedRegionBackground": "#ffffff00",
 		"diffEditor.unchangedRegionForeground": "#abb2bf",
+		"diffEditor.unchangedRegionShadow": "#ffffff00",
 		"diffEditor.move.border": "#5C6370",
 		"diffEditor.moveActive.border": "#5C6370",
+		"multiDiffEditor.headerBackground": "#323842",
+		"multiDiffEditor.border": "#ffffff00",
 
 		// Merge Editor
 		// Note: For some reason the merge editor doesn't use `diffEditor.*LineBackground`
