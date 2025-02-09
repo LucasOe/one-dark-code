@@ -8,6 +8,7 @@
 - Slightly improve syntax highlighting for doc comments in C# when using semantic highlighting
 - Adjust colors for properties and fields
 - Remove GitLens support
+- Fix black color in the terminal
 
 ## 1.7.0
 

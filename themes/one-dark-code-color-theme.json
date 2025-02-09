@@ -413,7 +413,7 @@
 		"terminalCommandDecoration.successBackground": "#98c379",
 
 		// Terminal Colors
-		"terminal.ansiBlack": "#282c34",
+		"terminal.ansiBlack": "#21252b",
 		"terminal.ansiBlue": "#61afef",
 		"terminal.ansiCyan": "#56b6c2",
 		"terminal.ansiGreen": "#98c379",
