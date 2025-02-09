@@ -515,16 +515,6 @@
 		"errorLens.infoForeground": "#61afef",
 		"errorLens.hintBackground": "#98c37915",
 		"errorLens.hintForeground": "#98c379",
-
-		// GitLens Extension
-		"gitlens.gutterBackgroundColor": "#ffffff00",
-		"gitlens.gutterForegroundColor": "#abb2bf",
-		"gitlens.gutterUncommittedForegroundColor": "#e5c07b",
-		"gitlens.trailingLineForegroundColor": "#5c6370",
-		"gitlens.lineHighlightBackgroundColor": "#61afef15",
-		"gitlens.lineHighlightOverviewRulerColor": "#61afef",
-		"gitlens.graphChangesColumnAddedColor": "#98c379",
-		"gitlens.graphChangesColumnDeletedColor": "#e06c75"
 	},
 	"tokenColors": [
 		// =============================================================================
