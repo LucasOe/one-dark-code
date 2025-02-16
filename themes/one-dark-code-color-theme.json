@@ -32,28 +32,28 @@
 		"toolbar.hoverOutline": "#ffffff00",
 
 		// Button control
-		"button.background": "#404754",
+		"button.background": "#32363e",
 		"button.foreground": "#e6e6e6",
 		"button.border": "#ffffff00",
 		"button.separator": "#ffffff00",
-		"button.hoverBackground": "#5c6370",
+		"button.hoverBackground": "#404754",
 		"button.secondaryBackground": "#404754",
 		"button.secondaryForeground": "#e6e6e6",
 		"button.secondaryHoverBackground": "#5c6370",
-		"checkbox.background": "#21252b",
+		"checkbox.background": "#32363e",
 		"checkbox.foreground": "#98c379",
 		"checkbox.border": "#404754",
 
 		// Dropdown control
-		"dropdown.background": "#21252b",
+		"dropdown.background": "#32363e",
 		"dropdown.foreground": "#abb2bf",
 		"dropdown.listBackground": "#21252b",
-		"dropdown.border": "#2c313c",
+		"dropdown.border": "#30363f",
 
 		// Input control
-		"input.background": "#21252b",
+		"input.background": "#32363e",
 		"input.foreground": "#abb2bf",
-		"input.border": "#2c313c",
+		"input.border": "#ffffff00",
 		"input.placeholderForeground": "#5c6370",
 		"inputOption.activeBackground": "#404754",
 		"inputOption.activeBorder": "#ffffff00",
@@ -383,7 +383,7 @@
 		"commandCenter.activeBorder": "#2c313c",
 		"commandCenter.inactiveBorder": "#2c313c",
 		"commandCenter.inactiveForeground": "#abb2bf",
-		"commandCenter.debuggingBackground": "#61afef50",
+		"commandCenter.debuggingBackground": "#ffffff00",
 
 		// Notification colors
 		"notificationCenter.border": "#2c313c",

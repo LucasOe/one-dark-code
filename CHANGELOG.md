@@ -1,6 +1,11 @@
 # Change Log
 
-## Unreleased
+## 1.9.0
+
+- Update input, button and dropdown colors for improved contrast
+- Remove blue background from command center when debugging
+
+## 1.8.0
 
 - Improve the contrast for the merge editor
 - More consistent colors for the editor gutter
