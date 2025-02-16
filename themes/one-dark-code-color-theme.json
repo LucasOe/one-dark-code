@@ -32,7 +32,7 @@
 		"toolbar.hoverOutline": "#ffffff00",
 
 		// Button control
-		"button.background": "#32363e",
+		"button.background": "#323842",
 		"button.foreground": "#e6e6e6",
 		"button.border": "#ffffff00",
 		"button.separator": "#ffffff00",
@@ -40,18 +40,18 @@
 		"button.secondaryBackground": "#404754",
 		"button.secondaryForeground": "#e6e6e6",
 		"button.secondaryHoverBackground": "#5c6370",
-		"checkbox.background": "#32363e",
+		"checkbox.background": "#323842",
 		"checkbox.foreground": "#98c379",
 		"checkbox.border": "#404754",
 
 		// Dropdown control
-		"dropdown.background": "#32363e",
+		"dropdown.background": "#323842",
 		"dropdown.foreground": "#abb2bf",
 		"dropdown.listBackground": "#21252b",
 		"dropdown.border": "#30363f",
 
 		// Input control
-		"input.background": "#32363e",
+		"input.background": "#323842",
 		"input.foreground": "#abb2bf",
 		"input.border": "#ffffff00",
 		"input.placeholderForeground": "#5c6370",
@@ -276,8 +276,8 @@
 		"diffEditor.unchangedRegionBackground": "#ffffff00",
 		"diffEditor.unchangedRegionForeground": "#abb2bf",
 		"diffEditor.unchangedRegionShadow": "#ffffff00",
-		"diffEditor.move.border": "#5C6370",
-		"diffEditor.moveActive.border": "#5C6370",
+		"diffEditor.move.border": "#5c6370",
+		"diffEditor.moveActive.border": "#5c6370",
 		"multiDiffEditor.headerBackground": "#323842",
 		"multiDiffEditor.border": "#ffffff00",
 
@@ -290,6 +290,15 @@
 		"mergeEditor.conflict.unhandledFocused.border": "#404754",
 		"mergeEditor.conflict.unhandledUnfocused.border": "#ffffff00",
 
+		// Chat
+		"chat.requestBorder": "#2c313c",
+		"chat.avatarBackground": "#ffffff00",
+		"chat.avatarForeground": "#abb2bf",
+		
+		// Inline Chat
+		"inlineChat.background": "#21252b",
+		"inlineChat.border": "#ffffff00",
+		
 		// Editor Widgets
 		"editorWidget.foreground": "#abb2bf",
 		"editorWidget.background": "#21252b",
